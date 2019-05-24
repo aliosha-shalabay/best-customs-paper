@@ -293,7 +293,10 @@ div.list-nav ul li a.gamburger:hover {
     display: flex;
     justify-content: space-between;
 }
-
+.flex-spase-center {
+    display: flex;
+    justify-content: center;
+}
 .price {
     color: #3d094a;
     font-family: "Open Sans";
@@ -327,4 +330,48 @@ div.list-nav ul li a.gamburger:hover {
 div.calc .calc-body .flex-spase-betwen{
     margin-bottom: 11px;
 }
+.counter{
+    width: 100%;
+    position: relative;
+    bottom: -53px;
+    padding: 25px 15px;
+    box-shadow: 0 3px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e8e8e8;
+    background-color: #ffffff;
+}
+.counter div.text-center{
+    border-right: 1px solid #e8e8e8;
+}
+.counter :last-child{
+    border-right: none!important;
+}
+.counter .counter-count{
+    color: #0965cd;
+    font-family: "Open Sans";
+    font-size: 35px;
+    letter-spacing: 0.7px;
+}
 
+.counter .counter-icon{
+    color: #656a70;
+    font-size: 21px;
+    margin-right: 10px;
+    float: left;
+    margin-top: 13px;
+}
+p.line{
+    width: 40px;
+    height: 2px;
+    background-color:#ffc72f ;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.counter p.counter-title{
+    color: #1e2021;
+    font-family: "helveticaneuecyrRoman";
+    font-size: 15px;
+    font-weight: 400;
+    /* Text style for "Active wri" */
+    letter-spacing: 0.3px;
+    margin-top: 20px;
+}
