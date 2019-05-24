@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?eujlsy');
+    src:  url('../fonts/icomoon.eot?eujlsy#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?eujlsy') format('truetype'),
+    url('../fonts/icomoon.woff?eujlsy') format('woff'),
+    url('../fonts/icomoon.svg?eujlsy#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-calculation:before {
+    content: "\e900";
+}
+.icon-details--icon:before {
+    content: "\e901";
+}
+.icon-menu--icon:before {
+    content: "\e902";
+}
+.icon-Online-chat--Icon:before {
+    content: "\e903";
+    color: #8b8c8d;
+}
+.icon-Register--Icon:before {
+    content: "\e904";
+    color: #8b8c8d;
+}
+.icon-search--icon:before {
+    content: "\e905";
+    color: #fff;
+}
+.icon-testimonials--icon:before {
+    content: "\e906";
+    color: #ff6464;
+}
+.icon-home:before {
+    content: "\e907";
+}

@@ -1,0 +1,330 @@
+@font-face {
+    font-family: HelveticaNeueCyr;
+    src: url("../fonts/helveticaneuecyr-bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: helveticaneuecyrRoman;
+    src: url("../fonts/helveticaneuecyr-roman.otf") format("opentype");
+}
+
+@font-face {
+    font-family: helveticaneuecyrLigth;
+    src: url("../fonts/helveticaneuecyr-light.otf") format("opentype");
+}
+
+.bg_b--menu {
+    height: 50px;
+    padding: auto 0;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    background-color: #1e2021;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-line-1 span.toll {
+    width: 54px;
+    height: 11px;
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.nav-line-1 span.phone {
+    width: 101px;
+    height: 14px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.icons {
+    font-size: 15px;
+}
+
+.nav-line-2 span a {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.24px;
+}
+
+.nav-line-2 span a:hover {
+    text-decoration: none;
+}
+
+nav.nav {
+    padding: 20px 0;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+img.logo {
+    height: 48px;
+    float: left;
+    margin-left: 10px;
+}
+
+.logo-text {
+    margin-top: -3px;
+}
+
+.link-logo:hover {
+    text-decoration: none;
+}
+
+div.logo-text .main-logo-text {
+    font-family: "helveticaneuecyrRoman";
+    letter-spacing: 0.3px;
+    color: #0965cd;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+div.logo-text .main-logo-text span {
+    color: #1d0d32;
+    font-family: "HelveticaNeueCyr";
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+div.logo-text .slag-logo {
+    color: #656a70;
+    font-family: "helveticaneuecyrLigth";
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 11.28px;
+    /* Text style for "Custom wri" */
+    letter-spacing: 2.12px;
+}
+
+div.list-nav {
+    display: flex;
+    justify-content: flex-end
+}
+
+div.list-nav ul li a {
+    color: #323538;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    text-transform: uppercase;
+    display: block;
+    height: 50px;
+}
+
+div.list-nav ul li a span {
+    color: #323538;
+    font-size: 20px;
+}
+
+div.list-nav ul li a:hover {
+    color: #ff6464;
+    border-bottom: 2px solid #ff6464;
+}
+
+.gamburger {
+    margin-top: 6px;
+    margin-left: 55px;
+}
+
+div.list-nav ul li a.gamburger:hover {
+    color: #323538;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.active {
+    color: #ff6464 !important;
+    border-bottom: 2px solid #ff6464;
+}
+
+.bg-full-image {
+    /* The image used */
+    background-image: url("../images/498424912.png");
+
+    /* Full height */
+    height: 851px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    padding: 0;
+}
+
+.gradient {
+    width: 100%;
+    height: 850px;
+    background-color: #12213d;
+    background-image: linear-gradient(-135deg, rgba(5, 167, 242, 0.8) 0%, rgba(18, 33, 61, 0.92) 60%, #12213d 100%);
+    opacity: 0.45;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header-title h1 {
+    text-shadow: 0 4px 40px rgba(0, 0, 0, 0.35);
+    color: #ffffff;
+    font-family: "HelveticaNeueCyr";
+    font-size: 3.4375em;
+    font-weight: 700;
+    line-height: 70px;
+    /* Text style for "Sed ut Per" */
+    letter-spacing: 1.65px;
+    margin-top: 173px;
+}
+
+.header-title p {
+    color: #ffffff;
+    font-family: "helveticaneuecyrRoman";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.header-title button, .calc-body button.send {
+    width: 263px;
+    padding: 18px 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #ffc72f;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 55px;
+}
+
+.pd-for-calc {
+    padding: 70px 0 70px 160px;
+}
+
+.calc {
+    box-shadow: 0 3px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e8e8e8;
+    background-color: #ffffff;
+    padding: 23px 45px;
+}
+
+.calc .calc-header p {
+    color: #1e2021;
+    font-family: "helveticaneuecyrRoman";
+    font-size: 27px;
+    font-weight: normal;
+    line-height: 60px;
+}
+
+.calc .calc-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calc .calc-header span {
+    font-size: 24px;
+    margin-top: 18px;
+}
+
+.calc .calc-body select, .calc .calc-body input {
+    color: #656a70;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-bottom: 2px solid #d6d6d6;
+}
+
+.calc .calc-body select:focus, .calc .calc-body input:focus {
+    box-shadow: none;
+}
+
+.calc .calc-body .form-group {
+    margin-bottom: 35px;
+}
+
+.selectet-form {
+    border-bottom: 2px solid #ffc72f !important;
+
+}
+
+.input-group-append {
+    margin-left: 15px;
+}
+
+.input-group-prepend {
+    margin-right: 15px;
+}
+
+.btn-outline-secondary {
+    border: none;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-outline-secondary:hover {
+    color: #6c757d;
+    background-color: white;
+    border-color: #6c757d;
+}
+
+.flex-spase-betwen {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    color: #3d094a;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.price:nth-child(1){
+    margin-top: 3px;
+}
+.price span:nth-child(1) {
+    color: #05a7f2;
+    font-family: "Open Sans";
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-right: 10px;
+}
+
+.price span:nth-child(2) {
+    color: #ff6464;
+    font-family: "Open Sans";
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+.calc-body button.send{
+    width:  100%;
+    margin-top: 0;
+}
+div.calc .calc-body .flex-spase-betwen{
+    margin-bottom: 11px;
+}
+
