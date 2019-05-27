@@ -289,6 +289,17 @@ a.gamburger:hover {
     justify-content: space-between;
 }
 
+.btn-order-place{
+    width: 280px;
+    height: 50px;
+    background-color: #ffc72f;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 60px;
+}
+
 .flex-spase-center {
     display: flex;
     justify-content: center;
