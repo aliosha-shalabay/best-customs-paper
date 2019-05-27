@@ -22,18 +22,21 @@
 }
 
 @media only screen and (max-width: 991px) {
-    .header-title h1{
+    .header-title h1 {
         margin-top: 72px;
         font-size: 26px;
         line-height: 39px;
     }
+
     .header-title p {
         font-size: 16px;
         line-height: 25px;
     }
+
     .price span:nth-child(1) {
         font-size: 22px;
     }
+
     .price span:nth-child(2) {
         font-size: 14px;
     }
@@ -42,6 +45,14 @@
 @media only screen and (max-width: 767px) {
     div.list-nav {
         display: none;
+    }
+
+    .content {
+        margin-top: 0;
+    }
+
+    .block {
+        padding-top: 30px;
     }
 
     .link-logo {
@@ -59,6 +70,15 @@
 
     }
 
+    .block > p {
+        font-size: 16px;
+    }
+
+    .block h3 {
+        font-size: 28px;
+        line-height: 25px;
+    }
+
     .nav-line-1 span.toll {
         font-size: 10px;
     }
@@ -66,17 +86,53 @@
     .nav-line-1 span.phone {
         font-size: 11px;
     }
-    .header-title h1{
+
+    .header-title h1 {
         font-size: 31px;
         letter-spacing: 0.93px;
         margin-top: 50px;
         line-height: normal;
     }
+
     .header-title p {
         font-size: 18px;
         line-height: 26px;
     }
 
+    .for-mobile {
+        display: block;
+    }
+
+    .bg-full-image .calc, .bg-full-image .counter {
+        display: none;
+    }
+
+    .pd-for-calc {
+        padding: 0;
+    }
+
+    .calc {
+        box-shadow: none;
+        border: none;
+        padding: 0;
+    }
+
+    .calc .calc-header span {
+        color: #ff6464;
+    }
+
+    .counter div.text-center {
+        border-right: none;
+        border-bottom: 1px solid #e8e8e8;
+    }
+
+    .counter {
+        width: 100%;
+        position: static;
+        padding: 30px 0 0 0;
+        box-shadow: none;
+        border: none;
+    }
 }
 
 @media only screen and (max-width: 575px) {
@@ -84,6 +140,11 @@
         font-size: 13px;
     }
 
+    .bg-full-image, .gradient {
+        height: 335px;
+    }
+
+    .gradient
     img.logo {
         height: 38px;
         float: left;
@@ -94,7 +155,16 @@
         font-size: 9px;
     }
 
-    .chat {
+    .calc {
+        padding-bottom: 20px;
+        box-shadow: 0px 20px 5px -15px rgba(0, 0, 0, 0.1);
+    }
+
+    .calc-body button.send {
+        box-shadow: none;
+    }
+
+    .chat, .header-title button {
         display: none;
     }
 
@@ -110,10 +180,19 @@
         margin-left: 0;
     }
 
-    .p0{
+    .p0 {
         padding: 0;
     }
-    .container.p0{
+
+    .container.p0 {
         padding: 0 7px;
+    }
+
+    .block .service-icon {
+        margin-left: 0;
+    }
+
+    .service-text {
+        margin-left: 0px;
     }
 }

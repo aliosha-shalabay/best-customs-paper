@@ -288,10 +288,12 @@ a.gamburger:hover {
     display: flex;
     justify-content: space-between;
 }
+
 .flex-spase-center {
     display: flex;
     justify-content: center;
 }
+
 .price {
     color: #3d094a;
     font-family: "Open Sans";
@@ -299,9 +301,10 @@ a.gamburger:hover {
     font-weight: 400;
 }
 
-.price:nth-child(1){
+.price:nth-child(1) {
     margin-top: 3px;
 }
+
 .price span:nth-child(1) {
     color: #05a7f2;
     font-family: "Open Sans";
@@ -318,14 +321,17 @@ a.gamburger:hover {
     font-weight: 600;
     text-decoration: line-through;
 }
-.calc-body button.send{
-    width:  100%;
+
+.calc-body button.send {
+    width: 100%;
     margin-top: 0;
 }
-div.calc .calc-body .flex-spase-betwen{
+
+div.calc .calc-body .flex-spase-betwen {
     margin-bottom: 11px;
 }
-.counter{
+
+.counter {
     width: 100%;
     position: relative;
     bottom: -53px;
@@ -334,34 +340,39 @@ div.calc .calc-body .flex-spase-betwen{
     border: 1px solid #e8e8e8;
     background-color: #ffffff;
 }
-.counter div.text-center{
+
+.counter div.text-center {
     border-right: 1px solid #e8e8e8;
 }
-.counter :last-child{
-    border-right: none!important;
+
+.counter :last-child {
+    border-right: none !important;
 }
-.counter .counter-count{
+
+.counter .counter-count {
     color: #0965cd;
     font-family: "Open Sans";
     font-size: 35px;
     letter-spacing: 0.7px;
 }
 
-.counter .counter-icon{
+.counter .counter-icon {
     color: #656a70;
     font-size: 21px;
     margin-right: 10px;
     float: left;
     margin-top: 13px;
 }
-p.line{
+
+p.line {
     width: 40px;
     height: 2px;
-    background-color:#ffc72f ;
+    background-color: #ffc72f;
     margin: 0 auto;
     margin-bottom: 10px;
 }
-.counter p.counter-title{
+
+.counter p.counter-title {
     color: #1e2021;
     font-family: "helveticaneuecyrRoman";
     font-size: 15px;
@@ -369,16 +380,19 @@ p.line{
     letter-spacing: 0.3px;
     margin-top: 20px;
 }
-.block{
+
+.block {
     padding-top: 86px;
 }
-.block h3{
+
+.block h3 {
     color: #273f6a;
     font-family: "helveticaneuecyrRoman";
     font-size: 35px;
     font-weight: 400;
 }
-.block>p{
+
+.block > p {
     color: #a3a6a9;
     font-family: "Open Sans";
     font-size: 20px;
@@ -386,7 +400,8 @@ p.line{
     line-height: 30px;
     letter-spacing: 0.4px;
 }
-.block .service-icon{
+
+.block .service-icon {
     padding: 10px;
     background-color: #f2f2f9;
     font-size: 36px;
@@ -396,16 +411,19 @@ p.line{
     align-items: center;
     margin-left: 60px;
 }
-.service-text{
+
+.service-text {
     margin-left: 39px;
 }
-.service-item{
+
+.service-item {
     border-right: 1px solid #f0f0f1;
     border-bottom: 1px solid #f0f0f1;
     padding: 25px 0 25px 0;
 
 }
-.block .service-text p:nth-child(1){
+
+.block .service-text p:nth-child(1) {
     font-weight: 700;
     line-height: 10px;
     text-transform: uppercase;
@@ -413,7 +431,8 @@ p.line{
     line-height: 25px;
     color: #1e2021;
 }
-.block div.service-text p:nth-child(2){
+
+.block div.service-text p:nth-child(2) {
     font-weight: 400;
     line-height: 30px;
     font-family: "Open Sans";
@@ -425,15 +444,18 @@ p.line{
     color: #1e2021;
 
 }
-.vertical-al{
+
+.vertical-al {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.content{
+
+.content {
     margin-top: 100px;
 }
-.btn-order{
+
+.btn-order {
     width: 75px;
     height: 35px;
     background-color: #ffc72f;
@@ -442,9 +464,15 @@ p.line{
     font-size: 12px;
     font-weight: 400;
 }
-.mobil-nav{
+
+.mobil-nav {
     display: none;
 }
-.vertical-line{
+
+.vertical-line {
+    display: none;
+}
+
+.for-mobile {
     display: none;
 }
