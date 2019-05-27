@@ -15,7 +15,6 @@
 
 .bg_b--menu {
     height: 50px;
-    padding: auto 0;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
     background-color: #1e2021;
     display: flex;
@@ -148,7 +147,7 @@ div.list-nav ul li a:hover {
     margin-left: 55px;
 }
 
-div.list-nav ul li a.gamburger:hover {
+a.gamburger:hover {
     color: #323538;
     border-bottom: none;
     text-decoration: none;
@@ -160,17 +159,13 @@ div.list-nav ul li a.gamburger:hover {
 }
 
 .bg-full-image {
-    /* The image used */
     background-image: url("../images/498424912.png");
-
-    /* Full height */
     height: 851px;
-
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-bottom: 52px;
 
     padding: 0;
 }
@@ -220,7 +215,7 @@ div.list-nav ul li a.gamburger:hover {
 }
 
 .pd-for-calc {
-    padding: 70px 0 70px 160px;
+    padding: 70px 0 70px 30px;
 }
 
 .calc {
@@ -371,7 +366,85 @@ p.line{
     font-family: "helveticaneuecyrRoman";
     font-size: 15px;
     font-weight: 400;
-    /* Text style for "Active wri" */
     letter-spacing: 0.3px;
     margin-top: 20px;
+}
+.block{
+    padding-top: 86px;
+}
+.block h3{
+    color: #273f6a;
+    font-family: "helveticaneuecyrRoman";
+    font-size: 35px;
+    font-weight: 400;
+}
+.block>p{
+    color: #a3a6a9;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+}
+.block .service-icon{
+    padding: 10px;
+    background-color: #f2f2f9;
+    font-size: 36px;
+    color: #05a7f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+}
+.service-text{
+    margin-left: 39px;
+}
+.service-item{
+    border-right: 1px solid #f0f0f1;
+    border-bottom: 1px solid #f0f0f1;
+    padding: 25px 0 25px 0;
+
+}
+.block .service-text p:nth-child(1){
+    font-weight: 700;
+    line-height: 10px;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 25px;
+    color: #1e2021;
+}
+.block div.service-text p:nth-child(2){
+    font-weight: 400;
+    line-height: 30px;
+    font-family: "Open Sans";
+    text-transform: none;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #1e2021;
+
+}
+.vertical-al{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    margin-top: 100px;
+}
+.btn-order{
+    width: 75px;
+    height: 35px;
+    background-color: #ffc72f;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+}
+.mobil-nav{
+    display: none;
+}
+.vertical-line{
+    display: none;
 }

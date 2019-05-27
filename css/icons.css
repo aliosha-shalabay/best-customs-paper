@@ -24,6 +24,165 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-analysis_essays--icon:before {
+    content: "\e90e";
+    color: #05a7f2;
+}
+.icon-art_essays--icon:before {
+    content: "\e90f";
+    color: #05a7f2;
+}
+.icon-book_review--icon:before {
+    content: "\e910";
+    color: #05a7f2;
+}
+.icon-education_essays--icon:before {
+    content: "\e911";
+    color: #05a7f2;
+}
+.icon-history_essays--icon:before {
+    content: "\e912";
+    color: #05a7f2;
+}
+.icon-justice_essays--icon:before {
+    content: "\e913";
+    color: #05a7f2;
+}
+.icon-literature_essays--icon:before {
+    content: "\e914";
+    color: #05a7f2;
+}
+.icon-management_essays--icon:before {
+    content: "\e915";
+    color: #05a7f2;
+}
+.icon-personal_essays--icon:before {
+    content: "\e916";
+    color: #05a7f2;
+}
+.icon-research_essays--icon:before {
+    content: "\e917";
+    color: #05a7f2;
+}
+.icon-articles--icon1:before {
+    content: "\e918";
+    color: #05a7f2;
+}
+.icon-discussion--icon:before {
+    content: "\e919";
+    color: #05a7f2;
+}
+.icon-dissertations--icon:before {
+    content: "\e91a";
+    color: #05a7f2;
+}
+.icon-essay--icon1:before {
+    content: "\e91b";
+    color: #05a7f2;
+}
+.icon-interviews--icon:before {
+    content: "\e91c";
+    color: #05a7f2;
+}
+.icon-presentation--icon:before {
+    content: "\e91d";
+    color: #05a7f2;
+}
+.icon-research--icon:before {
+    content: "\e91e";
+    color: #05a7f2;
+}
+.icon-review--icon:before {
+    content: "\e91f";
+    color: #05a7f2;
+}
+.icon-term_paper--icon1:before {
+    content: "\e920";
+    color: #05a7f2;
+}
+.icon-Active_writers--icon:before {
+    content: "\e921";
+    color: #727780;
+}
+.icon-Customer_fulfillment--icon:before {
+    content: "\e922";
+    color: #727780;
+}
+.icon-Pages_written--icon:before {
+    content: "\e923";
+    color: #727780;
+}
+.icon-Words_written--icon:before {
+    content: "\e924";
+    color: #727780;
+}
+.icon-approve_your_order--icon:before {
+    content: "\e925";
+    color: #ffc72f;
+}
+.icon-place_your_order--icon:before {
+    content: "\e926";
+    color: #ffc72f;
+}
+.icon-track_your_order--icon:before {
+    content: "\e927";
+    color: #ffc72f;
+}
+.icon-articles--icon:before {
+    content: "\e928";
+    color: #273f6a;
+}
+.icon-case_study--icon:before {
+    content: "\e929";
+    color: #273f6a;
+}
+.icon-download--icon:before {
+    content: "\e92a";
+    color: #0965cd;
+}
+.icon-essay--icon:before {
+    content: "\e92b";
+    color: #273f6a;
+}
+.icon-lab_report--icon:before {
+    content: "\e92c";
+    color: #273f6a;
+}
+.icon-research_paper--icon:before {
+    content: "\e92d";
+    color: #273f6a;
+}
+.icon-term_paper--icon:before {
+    content: "\e92e";
+    color: #273f6a;
+}
+.icon-users:before {
+    content: "\e908";
+}
+.icon-document:before {
+    content: "\e909";
+}
+.icon-first:before {
+    content: "\e90a";
+}
+.icon-file:before {
+    content: "\e90b";
+}
 .icon-calculation:before {
     content: "\e900";
 }
@@ -51,4 +210,10 @@
 }
 .icon-home:before {
     content: "\e907";
+}
+.icon-home2:before {
+    content: "\e90c";
+}
+.icon-home3:before {
+    content: "\e90d";
 }

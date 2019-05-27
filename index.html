@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
           rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
@@ -12,162 +14,288 @@
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-touchspin/4.2.5/jquery.bootstrap-touchspin.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 
     <title>index</title>
 </head>
 <body>
 
-<div class="wrapper">
-    <div class="container-fluid bg_b--menu">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="nav-line-1">
-                        <span class="toll">Toll free:</span>
-                        <span class="phone">1(888)435-1677</span>
-                        <span class="toll ml-15">Toll to:</span>
-                        <span class="phone">1(888)435-1677</span>
-                    </div>
+<div class="container-fluid bg_b--menu">
+    <div class="container p0">
+        <div class="row">
+            <div class="col-9 col-sm-7 col-md-6 p0">
+                <div class="nav-line-1">
+                    <span class="toll">Toll free:</span>
+                    <span class="phone">1(888)435-1677</span>
+                    <span class="toll ml-15">Toll to:</span>
+                    <span class="toll vertical-line"> | </span>
+                    <span class="phone">1(888)435-1677</span>
                 </div>
-                <div class="col-md-6">
-                    <div class="nav-line-2">
-                        <div class="nav-line-1 text-right">
-                            <span class=""><a href="#"><span
+            </div>
+            <div class="col-3 col-sm-5 col-md-6 p0">
+                <div class="nav-line-2">
+                    <div class="nav-line-1 text-right">
+                            <span class="chat"><a href="#"><span
                                     class="icon-Online-chat--Icon icons"></span> Online Chat</a></span>
-                            <span class="ml-15"><a href="#"><span
-                                    class="icon-Register--Icon icons"></span> Register</a></span>
-                        </div>
+                        <span class="ml-15"><a href="#"><span
+                                class="icon-Register--Icon icons"></span> Register</a></span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="container">
-            <div class="row">
-                <nav class="nav">
+</div>
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <nav class="nav">
 
-                    <div class="col-md-3">
-                        <a class="link-logo" href="/">
-                            <img class="logo img-responsive" src="images/logo.svg">
-                            <div class="logo-text">
-                                <p class="main-logo-text"><span>Best</span>Custompapers</p>
-                                <p class="slag-logo">Custom writing service</p>
+                <div class="col-7 col-sm-8 col-md-12 col-lg-12 col-xl-3 p0">
+                    <a class="link-logo" href="/">
+                        <img class="logo img-responsive" src="images/logo.svg">
+                        <div class="logo-text">
+                            <p class="main-logo-text"><span>Best</span>Custompapers</p>
+                            <p class="slag-logo">Custom writing service</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5 col-sm-4 col-md-12 col-lg-12 col-xl-9 p0">
+                    <div class="list-nav">
+                        <ul class="nav">
+                            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">About Us </a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">order now</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Disclaimer</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                            <li class="nav-item"><a class="gamburger" href="#"><span class="icon-menu--icon"></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mobil-nav flex-spase-betwen">
+                        <button class="btn btn-order">Order</button>
+                        <a class="gamburger" href="#"><span class="icon-menu--icon"></span></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+<div class="container-fluid bg-full-image">
+    <div class="gradient"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="header-title">
+                    <h1>Sed ut Perspiciatis Unde Omnis</h1>
+                    <p><span class="title--wave"></span></p>
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                    <button class="btn ">Place an order</button>
+                </div>
+            </div>
+            <div class="col-md-6 pd-for-calc">
+                <div class="calc">
+                    <div class="calc-header">
+                        <p>Get <b>a price</b> quote</p><span class="icon-calculation"></span>
+                    </div>
+                    <div class="calc-body">
+                        <form action="/" method="post">
+                            <div class="form-group">
+                                <select class="selectet-form form-control">
+                                    <option>Type of paper</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
                             </div>
-                        </a>
+                            <div class="form-group">
+                                <select class="form-control">
+                                    <option>Writer level</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input type="number" class="form-control" placeholder="0 pages">
+                            </div>
+                            <div class="form-group">
+                                <select class="form-control">
+                                    <option>Urgency</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                            <div class="form-group flex-spase-betwen">
+                                <p class="price">First order only</p>
+                                <p class="price"><span>$10.49</span><span>$13.99</span></p>
+                            </div>
+                            <button class="btn send">Continue</button>
+
+                        </form>
                     </div>
-                    <div class="col-md-9">
-                        <div class="list-nav">
-                            <ul class="nav">
-                                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">About Us </a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">order now</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Disclaimer</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-                                <li class="nav-item"><a class="gamburger" href="#"><span class="icon-menu--icon"></span></a>
-                                </li>
-                            </ul>
-                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="counter">
+
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <div class="flex-spase-center">
+                        <p class="counter-icon"><span class="icon-users"></span></p>
+                        <p class="counter-count ">953</p>
                     </div>
-                </nav>
+                    <p class="line"></p>
+                    <p class="counter-title">Active writers</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="flex-spase-center">
+                        <p class="counter-icon"><span class="icon-document"></span></p>
+                        <p class="counter-count ">4096</p>
+                    </div>
+                    <p class="line"></p>
+                    <p class="counter-title">Pages written</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="flex-spase-center">
+                        <p class="counter-icon"><span class="icon-first"></span></p>
+                        <p class="counter-count ">96%</p>
+                    </div>
+                    <p class="line"></p>
+                    <p class="counter-title">Customer fulfillment</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="flex-spase-center">
+                        <p class="counter-icon"><span class="icon-file"></span></p>
+                        <p class="counter-count ">1276K</p>
+                    </div>
+                    <p class="line"></p>
+                    <p class="counter-title">Words written</p>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-full-image">
-        <div class="gradient"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="header-title">
-                        <h1>Sed ut Perspiciatis Unde Omnis</h1>
-                        <p><span class="title--wave"></span></p>
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                        <button class="btn ">Place an order</button>
-                    </div>
-                </div>
-                <div class="col-md-6 pd-for-calc">
-                    <div class="calc">
-                        <div class="calc-header">
-                            <p>Get <b>a price</b> quote</p><span class="icon-calculation"></span>
-                        </div>
-                        <div class="calc-body">
-                            <form action="/" method="post">
-                                <div class="form-group">
-                                    <select class="selectet-form form-control">
-                                        <option>Type of paper</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <select class="form-control">
-                                        <option>Writer level</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <input type="number" class="form-control" placeholder="0 pages">
-                                </div>
-                                <div class="form-group">
-                                    <select class="form-control">
-                                        <option>Urgency</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </div>
-                                <div class="form-group flex-spase-betwen">
-                                    <p class="price">First order only</p>
-                                    <p class="price"><span>$10.49</span><span>$13.99</span></p>
-                                </div>
-                                <button class="btn send">Continue</button>
+</div>
+<div class="container-fluid">
+    <div class="container">
+        <div class="block text-center">
+            <h3>Our Services</h3>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
 
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="counter">
-
+            <div class="content">
                 <div class="row">
-                    <div class="col-md-3 text-center">
+                    <div class="col-md-4 text-center service-item">
                         <div class="flex-spase-center">
-                            <p class="counter-icon"><span class="icon-calculation"></span></p>
-                            <p class="counter-count ">953</p>
+                            <div class="col-md-2 vertical-al">
+                                <p class="service-icon"><span class="icon-users"></span></p>
+                            </div>
+                            <div class="col-md-10 service-text">
+                                <p class="">Essays</p>
+                                <p class="">At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+                            </div>
                         </div>
-                        <p class="line"></p>
-                        <p class="counter-title">Active writers</p>
                     </div>
-                    <div class="col-md-3 text-center">
+                    <div class="col-md-4 text-center service-item">
                         <div class="flex-spase-center">
-                            <p class="counter-icon"><span class="icon-calculation"></span></p>
-                            <p class="counter-count ">4096</p>
-                        </div>                        <p class="line"></p>
-                        <p class="counter-title">Pages written</p>
+                            <div class="col-md-2 vertical-al">
+                                <p class="service-icon"><span class="icon-users"></span></p>
+                            </div>
+                            <div class="col-md-10 service-text">
+                                <p class="">Essays</p>
+                                <p class="">At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-3 text-center">
+                    <div class="col-md-4 text-center service-item">
                         <div class="flex-spase-center">
-                            <p class="counter-icon"><span class="icon-calculation"></span></p>
-                            <p class="counter-count ">96%</p>
-                        </div>                        <p class="line"></p>
-                        <p class="counter-title">Customer fulfillment</p>
+                            <div class="col-md-2 vertical-al">
+                                <p class="service-icon"><span class="icon-users"></span></p>
+                            </div>
+                            <div class="col-md-10 service-text">
+                                <p class="">Essays</p>
+                                <p class="">At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-3 text-center">
+
+                </div>
+                <div class="row">
+                    <div class="col-md-4 text-center service-item">
                         <div class="flex-spase-center">
-                            <p class="counter-icon"><span class="icon-calculation"></span></p>
-                            <p class="counter-count ">1276K</p>
-                        </div>                        <p class="line"></p>
-                        <p class="counter-title">Words written</p>
+                            <div class="col-md-2 vertical-al">
+                                <p class="service-icon"><span class="icon-users"></span></p>
+                            </div>
+                            <div class="col-md-10 service-text">
+                                <p class="">Essays</p>
+                                <p class="">At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+                            </div>
+                        </div>
                     </div>
+                    <div class="col-md-4 text-center service-item">
+                        <div class="flex-spase-center">
+                            <div class="col-md-2 vertical-al">
+                                <p class="service-icon"><span class="icon-users"></span></p>
+                            </div>
+                            <div class="col-md-10 service-text">
+                                <p class="">Essays</p>
+                                <p class="">At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center service-item">
+                        <div class="flex-spase-center">
+                            <div class="col-md-2 vertical-al">
+                                <p class="service-icon"><span class="icon-users"></span></p>
+                            </div>
+                            <div class="col-md-10 service-text">
+                                <p class="">Essays</p>
+                                <p class="">At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-4 text-center service-item">
+                        <div class="flex-spase-center">
+                            <div class="col-md-2 vertical-al">
+                                <p class="service-icon"><span class="icon-users"></span></p>
+                            </div>
+                            <div class="col-md-10 service-text">
+                                <p class="">Essays</p>
+                                <p class="">At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center service-item">
+                        <div class="flex-spase-center">
+                            <div class="col-md-2 vertical-al">
+                                <p class="service-icon"><span class="icon-users"></span></p>
+                            </div>
+                            <div class="col-md-10 service-text">
+                                <p class="">Essays</p>
+                                <p class="">At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center service-item">
+                        <div class="flex-spase-center">
+                            <div class="col-md-2 vertical-al">
+                                <p class="service-icon"><span class="icon-users"></span></p>
+                            </div>
+                            <div class="col-md-10 service-text">
+                                <p class="">Essays</p>
+                                <p class="">At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
