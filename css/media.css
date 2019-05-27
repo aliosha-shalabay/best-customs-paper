@@ -60,7 +60,9 @@
         width: 231px;
         margin: 0 auto;
     }
-
+    .bg-color-silver {
+        padding: 22px 0;
+    }
     .mobil-nav {
         display: block;
     }
@@ -70,6 +72,10 @@
 
     }
 
+    .block-3 h3 {
+        margin-bottom: 18px;
+    }
+    
     .block > p {
         font-size: 16px;
     }
@@ -144,11 +150,11 @@
         height: 335px;
     }
 
-    .gradient
+
     img.logo {
         height: 38px;
         float: left;
-        margin-left: 0px;
+        margin-left: -11px;
     }
 
     div.logo-text .slag-logo {
