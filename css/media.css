@@ -19,9 +19,22 @@
         margin-left: 8px;
     }
 
+    .our-content .our-content-block-1 ul li, .our-content .our-content-block-2 ul li {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
 }
 
 @media only screen and (max-width: 991px) {
+    .our-advantages {
+        padding: 72px 10px 36px 10px;
+    }
+    .our-advantages .btn-order-place{
+        margin: 0 auto;
+    }
+
+
     .header-title h1 {
         margin-top: 72px;
         font-size: 26px;
@@ -32,7 +45,10 @@
         font-size: 16px;
         line-height: 25px;
     }
+    .pd-for-calc{
+        padding: 70px 0 70px 30px;
 
+    }
     .price span:nth-child(1) {
         font-size: 22px;
     }
@@ -40,6 +56,8 @@
     .price span:nth-child(2) {
         font-size: 14px;
     }
+
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -200,5 +218,13 @@
 
     .service-text {
         margin-left: 0px;
+    }
+    .our-advantages, .our-content{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .our-content{
+        box-shadow: 0px 20px 5px -15px rgba(0, 0, 0, 0.1);
+
     }
 }
