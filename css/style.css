@@ -214,7 +214,7 @@ a.gamburger:hover {
     margin-top: 55px;
 }
 
-.header-title button:hover{
+.header-title button:hover {
     color: white;
 }
 
@@ -304,6 +304,7 @@ a.gamburger:hover {
     margin-top: 60px;
     margin-bottom: 60px;
 }
+
 .btn-order-place:hover {
     color: white;
 }
@@ -533,7 +534,7 @@ p.line {
     box-shadow: 9px 12px 10px rgba(209, 209, 209, 0.6);
 }
 
-.our-content .our-content-block-1 h3, .our-content .our-content-block-2 h3{
+.our-content .our-content-block-1 h3, .our-content .our-content-block-2 h3 {
     color: #273f6a;
     font-family: "helveticaneuecyrRoman";
     font-size: 35px;
@@ -541,11 +542,12 @@ p.line {
     line-height: 42px;
     margin-bottom: 44px;
 }
-.our-content .our-content-block-2 h3{
+
+.our-content .our-content-block-2 h3 {
     color: #ffc72f;
 }
 
-.our-content .our-content-block-1 ul li, .our-content .our-content-block-2 ul li {
+.our-content .our-content-block-1 ul li, .our-content .our-content-block-2 ul li, .list-partner li {
     color: #51555a;
     font-family: "Open Sans";
     font-size: 19px;
@@ -554,26 +556,29 @@ p.line {
     list-style: none;
 }
 
-.our-content .our-content-block-1 ul li i, .our-content .our-content-block-2 ul li i {
+.our-content .our-content-block-1 ul li i, .our-content .our-content-block-2 ul li i, .list-partner li i {
     color: #ffb400;
     font-size: 16px;
     margin-right: 22px;
 }
 
-.our-content .our-content-block-2 ul li i {
-    color: #6b91a4;
+.our-content .our-content-block-2 ul li i, .list-partner li i {
+    color: #0965cd;
 }
 
-.our-content .our-content-block-2 ul, .our-content .our-content-block-1 ul {
+.our-content .our-content-block-2 ul, .our-content .our-content-block-1 ul, .list-partner {
     padding: 0;
 }
+
 .our-content .btn-order-place {
-    margin:0 0 0 15px;
+    margin: 0 0 0 15px;
 }
-.how-it-works p.icon-how-it-works{
+
+.how-it-works p.icon-how-it-works {
     font-size: 70px;
 }
-.how-it-works h4{
+
+.how-it-works h4 {
     color: #1e2021;
     font-family: "helveticaneuecyrRoman";
     font-size: 18px;
@@ -581,7 +586,8 @@ p.line {
     line-height: 24px;
     text-transform: uppercase;
 }
-.how-it-works p{
+
+.how-it-works p {
     color: #51555a;
     font-family: "Open Sans";
     font-size: 17px;
@@ -589,11 +595,11 @@ p.line {
     line-height: 22px;
 }
 
-.how-it-works div{
+.how-it-works div {
     padding-right: 40px;
 }
 
-.how-it-works div span{
+.how-it-works div span {
     display: block;
     text-align: center;
     width: 28px;
@@ -606,13 +612,51 @@ p.line {
     margin-left: 200px;
     margin-bottom: 20px;
 }
-.how-it-works-wrap .btn-order-place{
+
+.how-it-works-wrap .btn-order-place {
     background-color: #05a7f2;
 }
 
-.how-it-works-wrap{
-
+.how-it-works-wrap {
     background-image: url("../images/2-layers.png");
     background-position: top center;
     background-repeat: no-repeat;
+}
+
+.bg-for-partner {
+    background-image: url("../images/spot--illustration_copy.png");
+    background-position: -109px 0;
+    background-repeat: no-repeat;
+
+    height: 200px;
+    background-color: white;
+    padding-bottom: 75px;
+}
+
+.bg-color-silver-partnerka {
+    padding-top: 0;
+}
+
+.bg-for-partner {
+    margin-bottom: 75px;
+}
+
+.list-partner li {
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    padding-left: 25px;
+}
+
+.list-partner li i {
+    position: absolute;
+    left: 0;
+}
+.block-partner{
+    position: relative;
+    padding-top: 280px;
+}
+.block-partner img{
+    position: absolute;
+    top: -280px;
 }
