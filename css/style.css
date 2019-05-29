@@ -856,3 +856,22 @@ p.ps{
     margin-top: 50px;
     width: 100%;
 }
+.footer{
+    /*padding: 100px 0;*/
+    background-color: #12213d;
+    background-image: linear-gradient(to top, #0e1829 0%, #12213d 100%);
+}
+.footer .link-logo .logo-text .main-logo-text span{
+    color: white;
+}
+.logo-payment, .payment{
+    padding: 38px 0;
+}
+.payment ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.payment ul li{
+    list-style: none;
+    margin-right: 11px;
+}
