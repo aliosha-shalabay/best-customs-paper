@@ -39,6 +39,12 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-lapki_2:before {
+    content: "\e92f";
+}
+.icon-lapki_1:before {
+    content: "\e930";
+}
 .icon-analysis_essays--icon:before {
     content: "\e90e";
     color: #05a7f2;
