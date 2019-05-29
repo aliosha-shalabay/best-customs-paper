@@ -83,6 +83,13 @@
     .partner-footer-block-1{
         padding: 60px 0 60px 0;
     }
+    .slider .slick-prev {
+        left: -15px;
+    }
+
+    .slider .slick-next {
+        right: -15px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -268,5 +275,15 @@
     }
     .partner-footer-block-2 {
         padding: 19px 0 1px 20px;
+    }
+    .slider .slick-prev,  .slider .slick-next {
+        width: 12px;
+        height: 19px;
+    }
+    .slider .slick-prev{
+        top: calc(50% - 29px);
+    }
+    .slider-item {
+        padding: 50px 10px;
     }
 }
