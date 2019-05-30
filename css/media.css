@@ -32,6 +32,9 @@
     .partner-footer-block-2 p{
         font-size: 21px;
     }
+    .contact div div p:nth-child(2) {
+        font-size: 12px;
+    }
 
 }
 
@@ -97,6 +100,13 @@
 
     .slider_2 .slick-next {
         right: -50px;
+    }
+    footer.footer h6 {
+        margin-bottom: 13px;
+        margin-top: 13px;
+    }
+    .none-mobile{
+        display: none;
     }
 }
 
@@ -216,6 +226,19 @@
     }
     .testimaonials button.btn-order-place{
         margin-top: 10px;
+    }
+    .none-xs{
+        display: none;
+    }
+    .desktop-none{
+        display: block;
+    }
+    .footer-text{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .logo-payment, .payment {
+        padding: 16px 0 10px 0;
     }
 }
 
