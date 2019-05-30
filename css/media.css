@@ -108,6 +108,9 @@
     .none-mobile{
         display: none;
     }
+    .testimonials {
+        padding: 0 15px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -248,7 +251,7 @@
     }
 
     .bg-full-image, .gradient {
-        height: 335px;
+        height: 100%;
     }
 
 
