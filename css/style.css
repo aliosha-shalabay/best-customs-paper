@@ -851,7 +851,9 @@ p.line {
     font-weight: 400;
     line-height: 24px;
 }
-
+.p0 {
+    padding: 0!important;
+}
 
 .slider_2 p.icon-lapki, p.icon-lapki {
     color: #05a7f2;
@@ -1247,6 +1249,7 @@ label {
 
 .discount img {
     margin-right: 10px;
+    height: 60px;
 }
 
 .discount p {
